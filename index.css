@@ -1,0 +1,200 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: skyblue;
+}
+
+.ludo{
+    width: 750px;
+    height: 748px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.blue,.red,.yellow,.green{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 20px; */
+    /* border-radius: 15px; */
+   
+}
+
+
+              /* color */
+  
+ .blue{
+    background-color: blue;
+ }             
+
+ .red{
+    background-color: red;
+ }
+
+ .yellow{
+    background-color: yellow;
+ }
+
+ .green{
+    background-color: green;
+ }
+
+
+
+              /* box inside */
+
+
+ .box{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+ }
+
+.box .insidbox{
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+    border-radius: 20px;
+ }
+ 
+
+ /*************color********/
+
+ .blueBackground{
+background-color: blue;
+    /* border-radius: 30px; */
+    width: 47px;
+    height: 47px;
+ }
+
+ .redBackground{
+background-color: red;
+ }
+
+ .yellowBackground{
+background-color: yellow;
+ }
+
+ .greenBackground{
+background-color: green;
+ }
+
+
+ /*********squar box*******/
+
+ .square{
+width: 47px;
+height: 47px;
+border: 1px solid black;
+/* font-size: 20px; */
+ }
+
+
+ .squarecotainer{
+   display: flex;
+
+ }
+/* #zia{
+  background-color: pink;
+  width: 10px;
+  height: 10px;
+} */
+
+ .row{
+   width: 750px;
+   height: 148px;
+   /* background-color: blueviolet; */
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .row1{
+   display: flex;
+ }
+
+
+ .material-icons{
+   font-size: 45px;
+   
+ }
+
+
+ /***********color*********/
+
+ .redcolor{
+   color: red;
+   
+}
+ .bluecolor{
+   color: blue;
+ }
+
+ .greencolor{
+   color: green;
+ }
+
+ .yellowcolor{
+   color: rgb(236, 236, 65);
+ }
+
+
+
+
+ .ludocenter{
+   display: flex;
+   position: absolute;
+   align-items: center;
+   justify-content: center;
+   font-size: 100px;
+   color: rgb(245, 245, 18);
+   background-color: black;
+   height: 152px;
+   width: 153px;
+   margin-right: 254px;
+ }
+
+
+ /**************imge***********/
+
+
+
+ .dic h2{
+  display: flex;
+  margin-top: -300px;
+  margin-left: 120px;
+ }
+
+
+.dic img{
+  display: flex;
+  height: 150px;
+  width: 150px;
+  margin-left: 90px;
+  border-radius: 20px;
+  margin-top: 50px;
+ }
+
+ .dic button{
+  display: flex;
+font-size: 25px;
+margin-top: 50px;
+margin-left: 120px;
+ }
+
+
+ 
